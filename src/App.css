@@ -33,6 +33,18 @@
     position: relative;
     
   }
+  .Label-design{
+    color: #303983;
+    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+/* .main-wrap{
+  background-color: aqua;
+} */
+
+
   
   .card-header{
     margin-top: 10px;
@@ -42,20 +54,15 @@
     padding: 1px 1px !important;
     text-align: center;
   }
-  
   .task-container{
     height: 600px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    background-color: #F6F7F8;
+    /* background-color: #abd0f5; */
     padding : 40px 100px;
+    
   }
-
-.Label-design{
-    color: #303983;
-    font-family: 'Berkshire Swash', cursive;
-    font-family: 'Dosis', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-}
+  
+  
+ 

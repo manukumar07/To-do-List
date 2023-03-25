@@ -33,11 +33,11 @@ const Task = ({modal, toggle, save}) => {
             <ModalBody>
             
                     <div className = "form-group">
-                        <label>Task Name</label>
+                        <label className='Label-design'>Task Name:-</label>
                         <input type="text" className = "form-control" value = {taskName} onChange = {handleChange} name = "taskName"/>
                     </div>
                     <div className = "form-group">
-                        <label>Description</label>
+                        <label className='Label-design'>Description:-</label>
                         <textarea rows = "5" className = "form-control" value = {description} onChange = {handleChange} name = "description"></textarea>
                     </div>
                 
